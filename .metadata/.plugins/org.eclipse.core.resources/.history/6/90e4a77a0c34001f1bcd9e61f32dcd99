@@ -1,0 +1,44 @@
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/Register")
+public class ServlerRegisteration extends HttpServlet {
+
+	public ServlerRegisteration() {
+		System.out.println("Servlet Object is created  internally by container");
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		// get the data from the user form (Request Method)
+		String uname = request.getParameter("uname");
+		String ucity = request.getParameter("ucity");
+
+		// response back to client
+		PrintWriter writer = response.getWriter();
+
+		response.sendRedirect("/UserRegisterForm/success.jsp");
+
+//				writer.println("Hello " + uname);
+//				writer.println("I know you're from " + ucity);
+//
+//		writer.println("<html> <head> <title> Second App </title></head>");
+//		writer.println("<body bgcolor='cyan'> <h1><marquee>Welcome to our Second Web Application</marquee></h1>");
+//		writer.println("<table>");
+//		writer.println("<tr> <th>NAME</th> <th>CITY</th> </tr>");
+//		writer.println("<tr><td> " + uname + "</td> <td> " + ucity + " </td></tr>");
+//
+//		writer.println("</table></body>");
+//		writer.println("</html>");
+//		writer.close();
+	}
+
+}

@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+D:\teluskoServletCourse\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2108564039.index
+3361816891.index
+1627585590.index
+1857072777.index
+2129332360.index
+1111835509.index
+2537159694.index
+537988797.index

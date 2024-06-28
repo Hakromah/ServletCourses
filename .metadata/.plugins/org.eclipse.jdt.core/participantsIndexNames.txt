@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+D:\teluskoServletCourse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\474005390.index
+\UserRegisterForm\src\main\java
