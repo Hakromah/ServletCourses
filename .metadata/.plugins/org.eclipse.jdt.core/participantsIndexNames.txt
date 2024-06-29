@@ -1,3 +1,9 @@
 INDEX VERSION 1.134
+D:\teluskoServletCourse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1715190068.index
+\RegistrationAppMVC\src\main\java
+D:\teluskoServletCourse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\213484776.index
+\ServletJSP1\src\main\java
 D:\teluskoServletCourse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\474005390.index
 \UserRegisterForm\src\main\java
+D:\teluskoServletCourse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2120361958.index
+\ServletRedirection\src\main\java
